@@ -1,0 +1,40 @@
+header{
+    display: inline-block;
+    width: 100%;
+    background-color: aqua;
+}
+
+
+main{
+display: inline-block;
+width: 100%;
+background-color:burlywood;
+}
+    .first-row{
+    display: inline-block;
+    width: 100%;
+    background-color: lightcoral;
+    }
+    .second-row{
+    display: inline-block;
+    width: 100%;
+    background-color: lightgreen;
+
+    }
+
+footer{
+display: inline-block;
+width: 100%;
+background-color: lightskyblue;
+}
+    .text-forma{
+    display: inline-block;
+    width: 100%;
+    background-color: lime;
+    }
+
+    .linksocial{
+    display: inline-block;
+    width: 100%;
+    background-color: lightseagreen;
+    }
