@@ -1,7 +1,8 @@
+
 header{
 display: inline-block;
 width: 100%;
-background-color: #FFF;
+/* background-color: #FFF; */
 font-family: 'Raleway', sans-serif;
 margin-bottom: 50px;
 }
@@ -39,7 +40,7 @@ margin-bottom: 50px;
         }
 
 
-section{
+.section{
 display: inline-block;
 width: 100%;
 /* background-color:burlywood; */
@@ -83,7 +84,7 @@ width: 100%;
     /* background-color: lightgreen; */
     width: 40%;    
     float: left;
-    margin
+    /* margin */
     
     }
         .second-row > img{
@@ -92,17 +93,101 @@ width: 100%;
             object-position: center;
             margin-right: 3%;
         }
+.second-section{
+    display: inline-block;
+    padding-top: 200px;
+    width: 100%;
+    /* background-color: hotpink; */
+     background-image: url(../img/bg-curve-desktop.svg);
+     background-position-y: -300px;
+     background-size: cover;
+     background-position: center;
+     /* margin-top: 100px; */
+}
+
+    .second-first-column{
+        display: inline-block;
+        width: 50%;
+        float: left;
+        margin-left: 3%;
+        margin-right: 3%;
+        }
+            .textimg{
+                display: inline-block;
+                /* width:100%; */
+                border-bottom: 1px solid hsl(170, 45%, 43%);
+                
+            }
+            .text{
+                color:hsl(170, 45%, 43%);
+                text-decoration: none;
+                
+            }
+             h2 {
+                font-size: 50px;
+            }        
+
+            .second-section p{
+                width: 70%;
+                font-size: 14px;
+            }
+
+       
+        .feedback{
+            display: inline-block;
+            background-color: white;
+            width: 300px;
+            margin-left: 30px;
+            margin-top: 30px;
+
+            /* height: 200px; */
+            /* margin-top: 30px; */
+
+        }
+            .img-kabutes{
+                display: inline-block;
+                /* margin-left: 20px; */
+                /* margin-bottom: 10px; */
+                /* width: 100%; */
+                /* height: 10px; */
+
+            }
+            .tarpkabuciu{
+                display: inline-block;
+                margin: 0px;
+                padding: 0px;
+                width: 100%;
+                /* margin-top: 10px; */
+                /* display: inline-block; */
+                /* width: 100%; */
+            }
+            .face{
+                /* display: inline-block; */
+                /* width: 100%; */
+            }
+            .name{
+                display: inline-block;
+                width: 100%;
+                font-size: 12px;
+                font-weight: 900;
+            }
+            .position{
+                /* display: inline; */
+                /* width: 100%; */
+                font-size: 8px;
+            }
+
+
+    .second-second-column{
+        width: 40%;
+        }
 
 footer{
 display: inline-block;
 width: 100%;
 background-color: lightskyblue;
 }
-    .text-forma{
-    display: inline-block;
-    width: 100%;
-    background-color: lime;
-    }
+  
 
     .linksocial{
     display: inline-block;
