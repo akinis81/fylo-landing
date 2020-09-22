@@ -1,7 +1,7 @@
+
 header{
 display: inline-block;
 width: 100%;
-background-color: #FFF;
 font-family: 'Raleway', sans-serif;
 margin-bottom: 50px;
 }
@@ -39,16 +39,14 @@ margin-bottom: 50px;
         }
 
 
-section{
+.section{
 display: inline-block;
 width: 100%;
-/* background-color:burlywood; */
 
 }
     .first-row{
     display: inline-block;
     width: 100%;
-    /* background-color: lightcoral; */
     width: 50%;
     float: left;
     margin: 3%;
@@ -80,10 +78,8 @@ width: 100%;
 
     .second-row{
     display: inline-block;
-    /* background-color: lightgreen; */
     width: 40%;    
     float: left;
-    margin
     
     }
         .second-row > img{
@@ -92,18 +88,166 @@ width: 100%;
             object-position: center;
             margin-right: 3%;
         }
+.second-section{
+    display: inline-block;
+    padding-top: 200px;
+    width: 100%;
+     background-image: url(../img/bg-curve-desktop.svg);
+     background-position-y: -300px;
+     background-size: cover;
+     background-position: center;
 
-footer{
+}
+
+    .second-first-column{
+        display: inline-block;
+        width: 50%;
+        float: left;
+        margin-left: 3%;
+        margin-right: 3%;
+        }
+
+        .full{
+            display: inline-block;
+            width: 100%;
+        }
+            .textimg{
+                display: inline-block;
+                border-bottom: 1px solid hsl(170, 45%, 43%);
+                float: left;
+                
+            }
+            .text{
+                color:hsl(170, 45%, 43%);
+                text-decoration: none;
+            }
+             h2 {
+                font-size: 30px;
+            }        
+
+            .second-section > .second-first-column > p{
+                width: 85%;
+                font-size: 14px;
+            }
+
+       
+        .feedback{
+            display: inline-block;
+            background-color: white;
+            width: 300px;
+            margin-left: 30px;
+            margin-top: 30px;
+            float: left;
+
+        }
+            .img-kabutes{
+                display: inline-block;
+                margin: 0;
+
+
+            }
+            .tarpkabuciu{
+                display: inline-block;
+                margin: 0px;
+
+            }
+            .face-frame{
+                height: 35px;
+                width: 100%;
+                margin-top: 10px;
+            
+
+            }
+            .face{
+            height: 35px;   
+            object-fit: cover;             
+            object-position: center;
+            float: left;
+            margin-right: 10px;
+            border-radius: 45px;
+            background-color: white;
+            
+            }
+            .name{
+                display: inline-block;
+                width: 50%;
+                font-size: 12px;
+                font-weight: 900;
+                margin-top: 2px;
+            }
+            .position{
+                display: inline-block;
+                width: 50%;
+                font-size: 8px;
+                margin-bottom: 2px;
+            }
+
+
+    .second-second-column{
+        width: 40%;
+        object-fit: contain;             
+        object-position: center;
+        }
+
+
+        .three-section{
+           display: inline-block; 
+           width: 100%;
+           background-color:#575989;     
+        }
+        .three-first-column{
+            display: inline-block; 
+            width: 50%;
+            margin-left: 35px;
+            margin-top: 50px;
+        
+        }
+        .three-first-column > h3{
+            font-size: 20px;
+            color: white;
+            
+        }
+        .three-first-column > p{
+            display: block;
+            width: 80%;
+            margin-top: 10px;
+            color: white;
+        }
+
+        .three-second-column{
+            display: inline-block; 
+           width: 39%;
+           
+
+        }
+        .three-text{
+            width: 70%;
+            margin-left: 60px ;
+            margin-right: 50px ;
+            margin-bottom: 10px ;
+            
+        }
+        .three-second-column > input{
+            margin-top: 50px ;
+            display: inline-block; 
+
+        }
+        .three-second-column > button{
+            display: inline-block; 
+            width: 30%;
+            font-size: 10px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        footer{
 display: inline-block;
 width: 100%;
 background-color: lightskyblue;
 }
-    .text-forma{
-    display: inline-block;
-    width: 100%;
-    background-color: lime;
-    }
-
+  
     .linksocial{
     display: inline-block;
     width: 100%;
