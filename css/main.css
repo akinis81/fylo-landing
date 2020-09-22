@@ -242,14 +242,73 @@ width: 100%;
             padding-bottom: 10px;
         }
 
-        footer{
+footer{
 display: inline-block;
 width: 100%;
-background-color: lightskyblue;
+/* background-color: lightskyblue; */
+background-color: #07043B;
 }
-  
-    .linksocial{
-    display: inline-block;
-    width: 100%;
-    background-color: lightseagreen;
+    .fylo{
+        display: inline-block;
+        width: 22%;
+        margin-top: 35px;
+        margin-left: 35px;
     }
+
+            .fylo > img{
+            display: inline-block;
+            float: left;
+                color: white;
+            }
+            .fylo > span{
+            width: 90%;
+            font-size: 12px;
+            color: white;
+            }
+
+    .link-one{
+        display: inline-block;
+        width: 22%;
+        margin-top: 98px;
+  
+    }
+        .link-one > a {
+            display: block;
+            width: 55%;
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+            margin-bottom: 10px;
+            float: right;
+        }
+
+  
+    .social-logo{
+    display: inline-block;
+    /* float: left; */
+    width: 22%;
+    /* margin-left: 66px; */
+    /* background-color: lightseagreen; */
+      }
+
+      .social-logo > a {
+        display: block;
+        float:right;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 13px;
+        margin-right: 7px;
+        
+      }
+
+      .social-logo > a:hover {
+        background-color: white;
+        color: #07043B;
+        /* border: 1px solid #07043B; */
+
+      }
+
+
