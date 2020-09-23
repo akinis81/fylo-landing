@@ -43,13 +43,19 @@ margin-bottom: 50px;
 display: inline-block;
 width: 100%;
 
+position: relative;
+left: 0px;
+top:0px;
+
 }
     .first-row{
     display: inline-block;
-    width: 100%;
+    /* width: 100%; */
     width: 50%;
     float: left;
     margin: 3%;
+    position: relative;
+
     }
         h1{
         font-size: 30px;
@@ -62,11 +68,15 @@ width: 100%;
         margin-top: 20px;
         }
             input{
+                margin-top: 10px;
+            width: 30%;
             border: 1px solid grey;
             border-radius: 4px;
             padding: 5px;
             }
             button{
+                margin-top: 10px;
+            width: 37%;
             background-color: blue;
             color: white;
             padding: 5px;
@@ -78,15 +88,24 @@ width: 100%;
 
     .second-row{
     display: inline-block;
-    width: 40%;    
-    float: left;
+     width: 40%;    
+    float: right;
+    position: absolute;
+    top:50%;
+    left: 50%;
+
     
     }
         .second-row > img{
-            width: 100%;
-            object-fit: contain;
+            display: inline-block;
+            width: 80%;
+            object-fit: cover;
             object-position: center;
-            margin-right: 3%;
+            position: absolute;
+            top:50%;
+            left:50%;
+       
+           transform: translate(-50%, -50%);
         }
 .second-section{
     display: inline-block;
@@ -307,8 +326,96 @@ background-color: #07043B;
       .social-logo > a:hover {
         background-color: white;
         color: #07043B;
-        /* border: 1px solid #07043B; */
 
       }
 
+      @media(max-width: 1000px){
+        .second-row > img{
+            display: inline-block;
+            width: 100%;
+        }
+        .first-row{
+            width: 46%;
+        }
+      
+      .input{
+        width: 60%;
+        }
+        .button{
+        width: 60%;
+        }
+    }
+
+@media(max-width: 658px){
+
+section{
+    position: static;
+}
+    .first-row{
+    float: left;
+    width: 70%;
+    position: static;
+    margin: 0%;
+    margin-left: 15%;
+    margin-top: 10px;
+    text-align: center;
+    }
+
+        h1{
+        font-size: 17px;
+        }
+        p{
+        font-size: 11px;
+        }
+        form{
+        margin-top: 20px;
+        }
+        .input{
+            width: 100%;
+        }
+        .button{
+            width: 100%;
+        
+        }
+
+    .second-row{
+    float: right;
+    width:100%;
+    position: static;
+    }
+        .second-row > img{
+        width: 70%;
+        position: static;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%,0%);
+        margin-left: 15%;
+        }
+        .three-text {
+        margin-right: 50px;
+        }
+        .three-second-column {
+        width: 35%;
+        }
+    }
+
+      
+@media(max-width:440px){
+    header > img{
+    height: 30px;
+    }
+    span{
+    font-size: 30px;
+    }
+    .link{
+    margin-left: 14px;
+    margin-top: 28px;
+    }
+    section{
+        position: static;
+    }
+    
+
+
+}
 
