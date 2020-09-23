@@ -3,7 +3,7 @@ header{
 display: inline-block;
 width: 100%;
 font-family: 'Raleway', sans-serif;
-margin-bottom: 50px;
+/* margin-bottom: 50px; */
 }
     header > img{
         display: inline-block;
@@ -42,10 +42,12 @@ margin-bottom: 50px;
 .section{
 display: inline-block;
 width: 100%;
-
 position: relative;
 left: 0px;
 top:0px;
+padding-top: 50px;
+padding-bottom: 50px;
+
 
 }
     .first-row{
@@ -103,24 +105,23 @@ top:0px;
             object-position: center;
             position: absolute;
             top:50%;
-            left:50%;
+            left:55%;
        
            transform: translate(-50%, -50%);
         }
+.section-img{
+    display: inline-block;
+    width: 100%;
+}
+
 .second-section{
     display: inline-block;
-    padding-top: 200px;
-    width: 100%;
-     background-image: url(../img/bg-curve-desktop.svg);
-     background-position-y: -300px;
-     background-size: cover;
-     background-position: center;
-
+    background-color: hsl(240, 75%, 98%);
 }
 
     .second-first-column{
         display: inline-block;
-        width: 50%;
+        width: 54%;
         float: left;
         margin-left: 3%;
         margin-right: 3%;
@@ -203,7 +204,7 @@ top:0px;
 
 
     .second-second-column{
-        width: 40%;
+        width: 30%;
         object-fit: contain;             
         object-position: center;
         }
@@ -331,11 +332,11 @@ background-color: #07043B;
 
       @media(max-width: 1000px){
         .second-row > img{
-            display: inline-block;
-            width: 100%;
+        display: inline-block;
+        width: 100%;
         }
         .first-row{
-            width: 46%;
+        width: 46%;
         }
       
       .input{
@@ -344,13 +345,12 @@ background-color: #07043B;
         .button{
         width: 60%;
         }
-    }
+     }
 
 @media(max-width: 658px){
-
-section{
+    section{
     position: static;
-}
+    }
     .first-row{
     float: left;
     width: 70%;
@@ -371,11 +371,10 @@ section{
         margin-top: 20px;
         }
         .input{
-            width: 100%;
+        width: 100%;
         }
         .button{
-            width: 100%;
-        
+        width: 100%;
         }
 
     .second-row{
