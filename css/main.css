@@ -65,6 +65,7 @@ padding-bottom: 50px;
         p{
         font-size: 12px;
         margin-top: 20px;
+        width: 80%;
         }
         form{
         margin-top: 20px;
@@ -117,6 +118,7 @@ padding-bottom: 50px;
 .second-section{
     display: inline-block;
     background-color: hsl(240, 75%, 98%);
+    padding-bottom: 50px;
 }
 
     .second-first-column{
@@ -204,6 +206,7 @@ padding-bottom: 50px;
 
 
     .second-second-column{
+        /* display: inline-block; */
         width: 35%;
         object-fit: contain;             
         object-position: center;
@@ -396,6 +399,19 @@ background-color: #07043B;
         .three-second-column {
         width: 35%;
         }
+        .second-section{
+            float: right;
+        }
+        .second-first-column{
+            width: 100%;
+            float: right;
+        }
+        .second-second-column{
+          
+            float: right;
+            width: 100%;
+        } 
+
     }
 
       
@@ -413,7 +429,8 @@ background-color: #07043B;
     section{
         position: static;
     }
-    
+
+
 
 
 }
