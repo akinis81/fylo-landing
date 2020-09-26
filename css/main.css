@@ -182,12 +182,12 @@ padding-bottom: 50px;
     @keyframes kubikas{
         0%{left: 0%; top: 50%;
              box-shadow:-8px 4px #F9F8FE;}
-        25%{left: 50%; top:4%;
+        25%{left: 50%; top:5%;
                 box-shadow:-1px 1px #F9F8FE;}     
         49.99%{left: 96%; top: 50%;
              box-shadow:-1px 1px #F9F8FE;}
         50%{left: 96%; top:50%;   box-shadow:8px 4px #F9F8FE;}
-        75%{left: 50%; top:4%;   box-shadow:8px 4px #F9F8FE;}
+        75%{left: 50%; top:5%;   box-shadow:8px 4px #F9F8FE;}
         100%{left: 0%; box-shadow:1px 1px #F9F8FE; 
         }
     }
