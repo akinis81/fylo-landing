@@ -180,15 +180,15 @@ padding-bottom: 50px;
         animation-timing-function: ease-out;
     }
     @keyframes kubikas{
-        0%{left: 0%; top: 50%;
+        0%{left: 10%; top: 50%;
              box-shadow:-8px 4px #F9F8FE;}
         25%{left: 50%; top:5%;
                 box-shadow:-1px 1px #F9F8FE;}     
-        49.99%{left: 91%; top: 50%;
+        49.99%{left: 90%; top: 50%;
              box-shadow:-1px 1px #F9F8FE;}
-        50%{left: 91%; top:50%;   box-shadow:8px 4px #F9F8FE;}
+        50%{left: 90%; top:50%;   box-shadow:8px 4px #F9F8FE;}
         75%{left: 50%; top:5%;   box-shadow:8px 4px #F9F8FE;}
-        100%{left: 0%; box-shadow:1px 1px #F9F8FE; 
+        100%{left: 10%; box-shadow:1px 1px #F9F8FE; 
         }
     }
     .second-first-column{
@@ -606,6 +606,4 @@ background-color: #07043B;
         float:left;
         } 
 
-
 }
-
