@@ -177,16 +177,16 @@ padding-bottom: 50px;
         animation-name: kubikas;
         animation-duration: 4s;
         animation-iteration-count: infinite;
-        animation-timing-function: cubic-bezier(0.57, 0.04, 0.32, 0.99);
+        animation-timing-function: ease-out;
     }
     @keyframes kubikas{
         0%{left: 0%; top: 50%;
              box-shadow:-8px 4px #F9F8FE;}
         25%{left: 50%; top:5%;
                 box-shadow:-1px 1px #F9F8FE;}     
-        49.99%{left: 96%; top: 50%;
+        49.99%{left: 94%; top: 50%;
              box-shadow:-1px 1px #F9F8FE;}
-        50%{left: 96%; top:50%;   box-shadow:8px 4px #F9F8FE;}
+        50%{left: 94%; top:50%;   box-shadow:8px 4px #F9F8FE;}
         75%{left: 50%; top:5%;   box-shadow:8px 4px #F9F8FE;}
         100%{left: 0%; box-shadow:1px 1px #F9F8FE; 
         }
