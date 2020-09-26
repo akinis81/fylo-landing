@@ -389,6 +389,7 @@ background-color: #07043B;
     float: right;
     width:100%;
     position: static;
+    text-align: center;
     }
         .second-row > img{
         width: 70%;
