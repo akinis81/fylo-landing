@@ -111,7 +111,64 @@ padding-bottom: 50px;
            transform: translate(-50%, -50%);
         }
 
+.cubic{
+    display: inline-block;
+    width: 90%;
+    height: 20px;
+    /* background-color: lawngreen; */
+    position: relative;
+    margin-left: 5%;
+}
+.cubic-animation{
+    width: 20px;
+    height: 20px;
+    /* background-color: lightcoral; */
+    border-radius: 50%;
+    border: 1px solid #dadae0;
+     position: absolute;
+    left: 0%;
+    top: 0px;
+    animation-name: kubikas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.57, 0.04, 0.32, 0.99);
+}
+@keyframes kubikas{
+    0%{left: 0%; box-shadow:-8px 4px #F9F8FE;}
+    49.99%{left: 100%; box-shadow:-1px 1px #F9F8FE;}
+    50%{left: 100%;   box-shadow:8px 4px #F9F8FE;}
+    100%{left: 0%; box-shadow:1px 1px #F9F8FE;
+    }
+}
 
+.bar{
+    display: inline-block;
+    width: 90%;
+    height: 5px;
+    /* background-color: lawngreen; */
+    margin-left: 5%;
+
+}
+
+
+.progress-bar{
+    height: 100%;
+    background-color: #F9F8FE;
+    animation-name: bariukas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    /* animation-direction: reverse; */
+}
+   
+@keyframes bariukas{
+    0%{ width: 0%;}
+    50%{ width:100%;}
+    100%{width: 0%;
+    /* opacity: 0; */
+    }
+}
+    
 .second-section{
     display: inline-block;
     background-color: hsl(240, 75%, 98%);
@@ -405,6 +462,9 @@ background-color: #07043B;
         .three-second-column {
         width: 35%;
         }
+
+
+
 .second-section{
     display: inline-block;
     width: 100%;
