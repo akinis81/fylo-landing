@@ -184,9 +184,9 @@ padding-bottom: 50px;
              box-shadow:-8px 4px #F9F8FE;}
         25%{left: 50%; top:5%;
                 box-shadow:-1px 1px #F9F8FE;}     
-        49.99%{left: 94%; top: 50%;
+        49.99%{left: 93%; top: 50%;
              box-shadow:-1px 1px #F9F8FE;}
-        50%{left: 94%; top:50%;   box-shadow:8px 4px #F9F8FE;}
+        50%{left: 93%; top:50%;   box-shadow:8px 4px #F9F8FE;}
         75%{left: 50%; top:5%;   box-shadow:8px 4px #F9F8FE;}
         100%{left: 0%; box-shadow:1px 1px #F9F8FE; 
         }
