@@ -111,35 +111,8 @@ padding-bottom: 50px;
            transform: translate(-50%, -50%);
         }
 
-.cubic{
-    display: inline-block;
-    width: 90%;
-    height: 20px;
-    /* background-color: lawngreen; */
-    position: relative;
-    margin-left: 5%;
-}
-.cubic-animation{
-    width: 20px;
-    height: 20px;
-    /* background-color: lightcoral; */
-    border-radius: 50%;
-    border: 1px solid #dadae0;
-     position: absolute;
-    left: 0%;
-    top: 0px;
-    animation-name: kubikas;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.57, 0.04, 0.32, 0.99);
-}
-@keyframes kubikas{
-    0%{left: 0%; box-shadow:-8px 4px #F9F8FE;}
-    49.99%{left: 100%; box-shadow:-1px 1px #F9F8FE;}
-    50%{left: 100%;   box-shadow:8px 4px #F9F8FE;}
-    100%{left: 0%; box-shadow:1px 1px #F9F8FE;
-    }
-}
+
+
 
 .bar{
     display: inline-block;
@@ -176,10 +149,48 @@ padding-bottom: 50px;
 }
 
 .second-image{
+    
     width: 100%;
-            
     }
 
+    .bendras{
+        /* background-color: hotpink; */
+    }
+    .bendras{
+        display: inline-block;
+        width: 100%;
+        /* height: 20px; */
+        /* background-color: lawngreen; */
+        position: relative;
+        padding-top: 30px;
+        /* margin-left: 5%; */
+    }
+    .cubic-animation{
+        width: 20px;
+        height: 20px;
+        /* background-color: lightcoral; */
+        border-radius: 50%;
+        border: 1px solid grey;
+         position: absolute;
+        left: 0%;
+        top: 50%;
+        animation-name: kubikas;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.57, 0.04, 0.32, 0.99);
+    }
+    @keyframes kubikas{
+        0%{left: 0%; top: 50%;
+             box-shadow:-8px 4px #F9F8FE;}
+        25%{left: 50%; top:4%;
+                box-shadow:-1px 1px #F9F8FE;}     
+        49.99%{left: 98%; top: 50%;
+             box-shadow:-1px 1px #F9F8FE;}
+        50%{left: 98%; top:50%;   box-shadow:8px 4px #F9F8FE;}
+        75%{left: 50%; top:4%;   box-shadow:8px 4px #F9F8FE;}
+        100%{left: 0%; box-shadow:1px 1px #F9F8FE; 
+        }
+    }
     .second-first-column{
         display: inline-block;
         width: 54%;
